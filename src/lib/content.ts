@@ -13,13 +13,6 @@ import { Params } from "./types";
 export async function listContent(baseurl: string, token: string, params: Params): Promise<any> {
     const headers = { Authorization: 'Bearer ' + token }
     var url = baseurl + Content.LIST_CONTENTS
-    // if ((params.meta?.level != "") && (params.meta?.coach != ""))  {
-    //     url = url +"?meta.level="+params.meta?.level+"&meta.coach="+params.meta?.coach
-    // } else if (params.meta?.level != "") {
-    //     url = url +"?meta.level="+params.meta?.level
-    // } else if (params.meta?.coach != "") {
-    //     url = url +"?meta.coach="+params.meta?.coach
-    // } 
     var apiResponse = await axios.get(url, {headers,params}).then((response) => {
         return response
     }, (error) => {
