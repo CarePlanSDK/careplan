@@ -4,7 +4,7 @@
 [![install size](https://packagephobia.com/result?p=careplan)](https://packagephobia.com/result?p=careplan)
 [![npm downloads](https://img.shields.io/npm/dm/careplan.svg?style=flat-square)](http://npm-stat.com/charts.html?package=careplan)
 [![](https://data.jsdelivr.com/v1/package/npm/careplan/badge)](https://www.jsdelivr.com/package/npm/careplan)
-[MIT License](./LICENSE.md)
+[MIT License](./LICENSE)
 
 
 ## Installing
@@ -23,9 +23,9 @@ $ yarn add careplan
 
 ## Features
 
-[Authentication](https://github.com/CarePlanSDK/careplan/blob/master/docs/Authentication.md)
-[Careplan](https://github.com/CarePlanSDK/careplan/blob/master/docs/Careplan.md)
-[Content](https://github.com/CarePlanSDK/careplan/blob/master/docs/Content.md)
+* [Authentication](https://github.com/CarePlanSDK/careplan/blob/master/docs/Authentication.md)
+* [Careplan](https://github.com/CarePlanSDK/careplan/blob/master/docs/Careplan.md)
+* [Content](https://github.com/CarePlanSDK/careplan/blob/master/docs/Content.md)
 
 ## Example
 
@@ -34,5 +34,10 @@ In order to gain the TypeScript typings (for intellisense / autocomplete) while 
 
 ```js
 const careplan = require('careplan');
+
+```
+
+```ts
+import { refreshToken, listCarePlan, listContent } from 'careplan';
 
 ```
