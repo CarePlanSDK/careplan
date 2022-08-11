@@ -1,11 +1,15 @@
 # Care Plan SDK
 [![npm version](https://img.shields.io/npm/v/careplan.svg?style=flat-square)](https://www.npmjs.org/package/careplan)
 ![Build status](https://github.com/CarePlanSDK/careplan/actions/workflows/ci.yml/badge.svg)
-[![install size](https://packagephobia.com/result?p=careplan)](https://packagephobia.com/result?p=careplan)
+[![install size](https://packagephobia.com/badge?p=careplan)](https://packagephobia.com/result?p=careplan)
 [![npm downloads](https://img.shields.io/npm/dm/careplan.svg?style=flat-square)](http://npm-stat.com/charts.html?package=careplan)
 [![](https://data.jsdelivr.com/v1/package/npm/careplan/badge)](https://www.jsdelivr.com/package/npm/careplan)
 [MIT License](./LICENSE)
 
+## Careplan
+
+The CarePlans platform describes the intentions of how one or more practitioners plan to deliver care to a specific patient.
+Care plans are used in a variety of areas and scopes ranging from the encounter or visit specifically to cross-visits.
 
 ## Installing
 
