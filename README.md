@@ -45,3 +45,5 @@ const careplan = require('careplan');
 import { refreshToken, listCarePlan, listContent } from 'careplan';
 
 ```
+
+npm run acp
